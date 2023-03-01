@@ -1,0 +1,11 @@
+import {useEffect, useState} from 'react';
+
+export function UseStream(ticket) {
+    const fetchParams = {mode: 'cors', method: 'POST', body: ticket}
+  
+    const onNext = useCallback(async res => {
+      const streamData = await res.json();
+      setStreamData(streamData);
+    }, [setStreamData]);
+    useStream('http://localhost:8081/fems/saveTicket', {onNext, fetchParams});
+}

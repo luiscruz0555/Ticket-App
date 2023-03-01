@@ -1,0 +1,62 @@
+.homeCard:not(.container) {
+    width: 90%;
+    max-width: 200rem;
+    padding: 3rem;
+    margin: 2rem 2rem 2rem 2rem;
+    text-align: left;
+}
+
+.container{
+    text-align: left;
+}
+
+.name {
+    font-size: larger;
+    margin-left: 1rem;
+  }
+
+  .ticketBorder {
+    margin-top: 1rem;
+    border-bottom: 4px solid rgb(193, 193, 193);
+    max-width: 500px;
+    margin-left: 5rem;
+    
+  }
+
+  .profile {
+    border: 1px solid black;
+    border-radius: 50%;
+    background: url('https://media.istockphoto.com/id/517998264/vector/male-user-icon.jpg?s=612x612&w=0&k=20&c=4RMhqIXcJMcFkRJPq6K8h7ozuUoZhPwKniEke6KYa_k=');
+    background-position: 50% 50%;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: right;
+    margin-left:40%;
+    resize:both;
+  }
+
+  img{
+    width:50%;
+    height: 50%;
+    object-fit: contain;
+  }
+
+  .userInfo {
+    text-align: center;
+    margin-left: 3rem;
+    padding-right: 0;
+  }
+
+  .button {
+    width: 150px;
+    margin: 1rem;
+  }
+
+  .userTicket {
+    overflow-y: scroll;
+    width: 500px;
+    scrollbar-width: none;
+    max-height: 500px;
+  }

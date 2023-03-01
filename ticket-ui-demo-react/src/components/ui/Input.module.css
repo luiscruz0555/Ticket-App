@@ -1,0 +1,95 @@
+.form {
+    display: auto;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+    float: left;
+}
+
+.inputColumn {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.control {
+    /* display:auto; */
+    margin:auto auto 2rem auto;
+    text-align:left;
+
+    
+}
+
+.button {
+    display: auto;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin: auto;
+    
+}
+
+.label {
+    display: block;
+}
+
+.space {
+    margin-top: 1rem;
+}
+
+.align {
+    display: auto;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 1rem;
+}
+
+.invalid label {
+    color: #ca3e51;
+  }
+  
+  .invalid input {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+  }
+
+  .error_text {
+    color: red;
+    width: 15rem;
+    text-align: left;
+  }
+
+  .submittedticket {
+    margin: 2rem 2rem 2rem 2rem;
+  }
+
+  .confirmation {
+    margin: 1rem;
+  }
+
+  .name {
+    font-size: larger;
+    margin-left: 1rem;
+  }
+
+  .ticketBorder {
+    border: 1px solid rgb(193, 193, 193);
+  }
+
+  .inputCard {
+    min-height: 25rem;
+    margin-top: 1rem;
+    
+  }
+
+/* .container {
+    display: auto;
+    margin:auto;
+    text-align: center;
+    
+} */
+
+/* .row {
+    display: auto;
+    margin:auto;
+    text-align: center;
+} */
