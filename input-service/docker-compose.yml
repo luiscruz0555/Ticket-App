@@ -1,0 +1,26 @@
+version: "3.3"
+services:
+  db:
+    image: mongo
+    #    environment:
+    #      - SPRING_DATA_MONGODB_HOST=localhost
+    #      - SPRING_DATA_MONGODB_PORT=27017
+    #      - SPRING_DATA_MONGODB_USERNAME=root
+    #      - SPRING_DATA_MONGODB_PASSWORD=rootpassword
+    #      - SPRING_DATA_MONGODB_SOURCE=admin
+    ports:
+      - "27017:27017"
+    expose:
+      - "27017"
+
+#  quizmonster-autograder-service:
+#    image: gcr.io/cde-rdc-dallas/quizmonster-autograder-service:latest
+#    ports:
+#      - "8080:8080"
+#    environment:
+#      - SPRING_RABBITMQ_HOST=rabbitmq
+#      - QUESTION_SERVICE_URL=http://quiz-service:8082
+#      - USERQUIZ_SERVICE_URL=http://userquiz-service:8083
+#    depends_on:
+#      - rabbitmq
+#    restart: on-failure

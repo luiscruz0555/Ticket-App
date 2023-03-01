@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: cloud, default
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: ticketdemo
+name: DemoAppReady
+environment: production
+enabled: false
+server:
+  port: 8080
+  servlet:
+    context-path: /api
