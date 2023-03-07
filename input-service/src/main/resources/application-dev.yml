@@ -1,0 +1,20 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: input-service
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+logging:
+  level:
+    root: INFO
+    org.springframework.web: ERROR
+    com.cognizant: INFO
+    org.hibernate: ERROR
